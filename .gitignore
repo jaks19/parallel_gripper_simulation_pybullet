@@ -1,0 +1,8 @@
+.DS_Store
+./arm_meshes/.DS_Store
+./sample_raw_meshes/.DS_Store
+./urdfs/.DS_Store
+
+/tmp/
+
+*__pycache__
