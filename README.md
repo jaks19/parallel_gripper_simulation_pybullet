@@ -1,4 +1,6 @@
 ## Parallel WSG-32 Gripper Simulation with a GUI wrapper and a Grasping-Routine wrapper
+Author: Adarsh Jeewajee
+Affiliation: MIT EECS
 
 A pybullet simulation that loads the [WSG-32 parallel-finger gripper](https://www.weiss-robotics.com/en/produkte/gripping-systems/performance-line-en/wsg-32-en/). 
 
@@ -18,8 +20,8 @@ A wrapper that takes in a Simulation object and adds slider controls to the GUI,
   * Opening/closing the gripper
   * Manipulating the camera
   
-Example command:
-python gui_wrapper.py --obj_path ./sample_raw_meshes/elephant.obj
+**Example command:
+python gui_wrapper.py --obj_path ./sample_raw_meshes/elephant.obj**
 
 ![GUI wrapper preview](https://github.mit.edu/jaks19/parallel_gripper_simulation_pybullet/blob/master/pics/pic_debug.png)
 
@@ -37,10 +39,10 @@ We provide primitives for performing the following sub-routines:
 We combine those primitives into a grasping routine where the gripper starts high above the table, then it is lowered till it reached the surface, closes on the object and goes back up, before shaking to test the grasp goodness.
 
 Note:
-We also show, in the __main__ section for this wrapper, how to stabilize any loaded object at the center of the table. The strategy used is to load the object, record the pos and orn at which it stabililizes, then re-launch it at the stable pos and orn.
+We also show, in the main section for this wrapper, how to stabilize any loaded object at the center of the table. The strategy used is to load the object, record the pos and orn at which it stabililizes, then re-launch it at the stable pos and orn.
 
-Example command:
-python dummy_grasp_routine_wrapper.py --obj_path ./sample_raw_meshes/elephant.obj
+**Example command:
+python dummy_grasp_routine_wrapper.py --obj_path ./sample_raw_meshes/elephant.obj**
 
 ![Dummy_grasp_routine_wrapper wrapper preview](https://github.mit.edu/jaks19/parallel_gripper_simulation_pybullet/blob/master/pics/pic_routine.png)
 
