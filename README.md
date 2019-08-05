@@ -1,10 +1,10 @@
-### What this is
+## Parallel WSG-32 Gripper Simulation with a GUI wrapper and a Grasping-Routine wrapper
 
 A pybullet simulation that loads the [WSG-32 parallel-finger gripper](https://www.weiss-robotics.com/en/produkte/gripping-systems/performance-line-en/wsg-32-en/). 
 
 The gripper parts are taken from [this](https://code.google.com/archive/p/wsg50-ros-pkg/) repo. 
 
-We package the parts in a simulation with a table and the possibility of loading any desired object in 'obj' format.
+We package the gripper parts in a simulation with a flat table, and the possibility of loading any desired object in '.obj' format.
 
 ### How to run
 
@@ -42,6 +42,6 @@ We also show, in the __main__ section for this wrapper, how to stabilize any loa
 Example command:
 python dummy_grasp_routine_wrapper.py --obj_path ./sample_raw_meshes/elephant.obj
 
-![dummy_grasp_routine_wrapper wrapper preview](https://github.mit.edu/jaks19/parallel_gripper_simulation_pybullet/master/pics/pic_routine.png)
+![Dummy_grasp_routine_wrapper wrapper preview](https://github.mit.edu/jaks19/parallel_gripper_simulation_pybullet/master/pics/pic_routine.png)
 
 
