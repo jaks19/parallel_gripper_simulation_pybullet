@@ -21,7 +21,7 @@ A wrapper that takes in a Simulation object and adds slider controls to the GUI,
 Example command:
 python gui_wrapper.py --obj_path ./sample_raw_meshes/elephant.obj
 
-![GUI wrapper preview](https://github.mit.edu/jaks19/parallel_gripper_simulation_pybullet/tree/master/pics/pic_debug.png)
+![GUI wrapper preview](https://github.mit.edu/jaks19/parallel_gripper_simulation_pybullet/master/pics/pic_debug.png)
 
 #### 2) The dummy grasp routine wrapper
 One might want to implement a wrapper that performs a specific routine with the gripper, like grasping an object. 
@@ -42,6 +42,6 @@ We also show, in the __main__ section for this wrapper, how to stabilize any loa
 Example command:
 python dummy_grasp_routine_wrapper.py --obj_path ./sample_raw_meshes/elephant.obj
 
-![dummy_grasp_routine_wrapper wrapper preview](https://github.mit.edu/jaks19/parallel_gripper_simulation_pybullet/tree/master/pics/pic_routine.png)
+![dummy_grasp_routine_wrapper wrapper preview](https://github.mit.edu/jaks19/parallel_gripper_simulation_pybullet/master/pics/pic_routine.png)
 
 
