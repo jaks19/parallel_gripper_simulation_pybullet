@@ -42,6 +42,6 @@ We also show, in the __main__ section for this wrapper, how to stabilize any loa
 Example command:
 python dummy_grasp_routine_wrapper.py --obj_path ./sample_raw_meshes/elephant.obj
 
-![Dummy_grasp_routine_wrapper wrapper preview](https://github.mit.edu/jaks19/parallel_gripper_simulation_pybullet/master/pics/pic_routine.png)
+![Dummy_grasp_routine_wrapper wrapper preview](https://github.mit.edu/jaks19/parallel_gripper_simulation_pybullet/blob/master/pics/pic_routine.png)
 
 
