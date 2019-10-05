@@ -1,6 +1,6 @@
 ## Parallel WSG-32 Gripper Simulation with a GUI wrapper and a Grasping-Routine wrapper
 Author: Adarsh Jeewajee
-Affiliation: MIT EECS
+Affiliation: MIT EECS, LIS CSAIL
 
 A pybullet simulation that loads the [WSG-32 parallel-finger gripper](https://www.weiss-robotics.com/en/produkte/gripping-systems/performance-line-en/wsg-32-en/). 
 
